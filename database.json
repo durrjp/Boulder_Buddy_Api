@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jon Durr",
+      "email": "jon@jon.com",
+      "password": "jon"
+    },
+    {
+      "email": "test@test.com",
+      "password": "test",
+      "name": "Tester Tester",
+      "id": 2
+    },
+    {
+      "email": "bill@bill.com",
+      "password": "bill",
+      "name": "bill bill",
+      "id": 3
+    },
+    {
+      "email": "sucks@sucks.com",
+      "password": "sucks",
+      "name": "anthony botting",
+      "id": 4
+    }
+  ],
+  "follows": [],
+  "sessions": [
+    {
+      "userId": 1,
+      "date": "2020-04-30",
+      "location": "The Gym",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "date": "2020-04-30",
+      "location": "dfsdfsdf",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "2020-04-30",
+      "location": "The Gym",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "date": "2020-04-30",
+      "location": "The Store",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "date": "2020-04-30",
+      "location": "The Gym",
+      "id": 5
+    }
+  ],
+  "boulders": [
+    {
+      "sessionId": 1,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 3
+    },
+    {
+      "sessionId": 1,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 5
+    },
+    {
+      "sessionId": 2,
+      "grade": 6,
+      "attempts": 5,
+      "sent": false,
+      "id": 6
+    },
+    {
+      "sessionId": 2,
+      "grade": 3,
+      "attempts": 2,
+      "sent": true,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "sessionId": 3,
+      "grade": 3,
+      "attempts": 6,
+      "sent": true
+    },
+    {
+      "id": 10,
+      "sessionId": 3,
+      "grade": 4,
+      "attempts": 5,
+      "sent": true
+    },
+    {
+      "sessionId": 3,
+      "grade": 3,
+      "attempts": 1,
+      "sent": true,
+      "id": 12
+    },
+    {
+      "sessionId": 4,
+      "grade": 2,
+      "attempts": 5,
+      "sent": true,
+      "id": 13
+    },
+    {
+      "sessionId": 4,
+      "grade": 8,
+      "attempts": 1,
+      "sent": false,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "sessionId": 4,
+      "grade": 4,
+      "attempts": 1,
+      "sent": true
+    },
+    {
+      "sessionId": 4,
+      "grade": 0,
+      "attempts": 1,
+      "sent": false,
+      "id": 19
+    },
+    {
+      "sessionId": 4,
+      "grade": 0,
+      "attempts": 1,
+      "sent": false,
+      "id": 20
+    },
+    {
+      "sessionId": 4,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 21
+    },
+    {
+      "sessionId": 4,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 22
+    },
+    {
+      "sessionId": 4,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 23
+    },
+    {
+      "sessionId": 4,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 24
+    },
+    {
+      "id": 25,
+      "sessionId": 5,
+      "grade": 3,
+      "attempts": 5,
+      "sent": true
+    }
+  ]
+}
