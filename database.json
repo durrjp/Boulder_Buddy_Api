@@ -23,9 +23,57 @@
       "password": "sucks",
       "name": "anthony botting",
       "id": 4
+    },
+    {
+      "email": "sucks@sucks.com",
+      "password": "sucks",
+      "name": "Jon Snow",
+      "id": 5
+    },
+    {
+      "email": "mo@mo.com",
+      "password": "mo",
+      "name": "Mo Mo",
+      "id": 6
     }
   ],
-  "follows": [],
+  "follows": [
+    {
+      "userId": 1,
+      "userFollowingId": 3,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "userFollowingId": 5,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "userFollowingId": 1,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "userFollowingId": 5,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "userFollowingId": 4,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "userFollowingId": 6,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "userFollowingId": 4,
+      "id": 7
+    }
+  ],
   "sessions": [
     {
       "userId": 1,
@@ -56,15 +104,87 @@
       "date": "2020-04-30",
       "location": "The Gym",
       "id": 5
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-01",
+      "location": "The Gym",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-05",
+      "location": "dfsdf",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-04",
+      "location": "The Crag",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-05",
+      "location": "My Chair",
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-05",
+      "location": "Gym",
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "Climb Nashville West",
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "Climb Nashville West",
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "sdfasdfarg",
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "yo",
+      "id": 31
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "gym",
+      "id": 32
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "jrtyyt",
+      "id": 33
+    },
+    {
+      "userId": 1,
+      "date": "2020-05-06",
+      "location": "rtyt",
+      "id": 34
     }
   ],
   "boulders": [
     {
+      "id": 3,
       "sessionId": 1,
       "grade": 1,
       "attempts": 1,
-      "sent": true,
-      "id": 3
+      "sent": false
     },
     {
       "sessionId": 1,
@@ -177,6 +297,328 @@
       "grade": 3,
       "attempts": 5,
       "sent": true
+    },
+    {
+      "id": 26,
+      "sessionId": 6,
+      "grade": 5,
+      "attempts": 3,
+      "sent": true
+    },
+    {
+      "sessionId": 7,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 27
+    },
+    {
+      "sessionId": 7,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 28
+    },
+    {
+      "sessionId": 7,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 29
+    },
+    {
+      "sessionId": 7,
+      "grade": 3,
+      "attempts": 1,
+      "sent": true,
+      "id": 30
+    },
+    {
+      "sessionId": 7,
+      "grade": 4,
+      "attempts": 1,
+      "sent": true,
+      "id": 31
+    },
+    {
+      "sessionId": 7,
+      "grade": 5,
+      "attempts": 3,
+      "sent": true,
+      "id": 32
+    },
+    {
+      "sessionId": 7,
+      "grade": 6,
+      "attempts": 4,
+      "sent": false,
+      "id": 33
+    },
+    {
+      "sessionId": 25,
+      "grade": 2,
+      "attempts": 2,
+      "sent": true,
+      "id": 34
+    },
+    {
+      "sessionId": 26,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 56
+    },
+    {
+      "sessionId": 26,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 57
+    },
+    {
+      "sessionId": 26,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 58
+    },
+    {
+      "sessionId": 26,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 59
+    },
+    {
+      "sessionId": 26,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 60
+    },
+    {
+      "sessionId": 26,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 61
+    },
+    {
+      "sessionId": 26,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 62
+    },
+    {
+      "sessionId": 26,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 63
+    },
+    {
+      "sessionId": 26,
+      "grade": 3,
+      "attempts": 2,
+      "sent": true,
+      "id": 64
+    },
+    {
+      "sessionId": 26,
+      "grade": 4,
+      "attempts": 1,
+      "sent": true,
+      "id": 65
+    },
+    {
+      "sessionId": 26,
+      "grade": 4,
+      "attempts": 2,
+      "sent": true,
+      "id": 66
+    },
+    {
+      "sessionId": 26,
+      "grade": 5,
+      "attempts": 2,
+      "sent": false,
+      "id": 67
+    },
+    {
+      "sessionId": 26,
+      "grade": 6,
+      "attempts": 2,
+      "sent": false,
+      "id": 68
+    },
+    {
+      "sessionId": 26,
+      "grade": 5,
+      "attempts": 5,
+      "sent": true,
+      "id": 69
+    },
+    {
+      "sessionId": 27,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 70
+    },
+    {
+      "sessionId": 27,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 71
+    },
+    {
+      "sessionId": 27,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 72
+    },
+    {
+      "sessionId": 27,
+      "grade": 3,
+      "attempts": 1,
+      "sent": true,
+      "id": 73
+    },
+    {
+      "sessionId": 27,
+      "grade": 6,
+      "attempts": 5,
+      "sent": false,
+      "id": 74
+    },
+    {
+      "sessionId": 28,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 75
+    },
+    {
+      "sessionId": 28,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 77
+    },
+    {
+      "sessionId": 28,
+      "grade": 3,
+      "attempts": 1,
+      "sent": true,
+      "id": 78
+    },
+    {
+      "id": 79,
+      "sessionId": 28,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true
+    },
+    {
+      "sessionId": 33,
+      "grade": 3,
+      "attempts": 1,
+      "sent": false,
+      "id": 80
+    },
+    {
+      "sessionId": 33,
+      "grade": 3,
+      "attempts": 1,
+      "sent": false,
+      "id": 81
+    },
+    {
+      "id": 82,
+      "sessionId": 29,
+      "grade": 2,
+      "attempts": 2,
+      "sent": true
+    },
+    {
+      "sessionId": 29,
+      "grade": 0,
+      "attempts": 1,
+      "sent": true,
+      "id": 83
+    },
+    {
+      "sessionId": 29,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 84
+    },
+    {
+      "sessionId": 29,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 85
+    },
+    {
+      "sessionId": 29,
+      "grade": 5,
+      "attempts": 5,
+      "sent": true,
+      "id": 86
+    },
+    {
+      "id": 87,
+      "sessionId": 32,
+      "grade": 0,
+      "attempts": 1,
+      "sent": false
+    },
+    {
+      "sessionId": 32,
+      "grade": 1,
+      "attempts": 1,
+      "sent": true,
+      "id": 88
+    },
+    {
+      "sessionId": 32,
+      "grade": 2,
+      "attempts": 1,
+      "sent": true,
+      "id": 89
+    },
+    {
+      "sessionId": 32,
+      "grade": 6,
+      "attempts": 1,
+      "sent": true,
+      "id": 90
+    },
+    {
+      "id": 91,
+      "sessionId": 34,
+      "grade": 4,
+      "attempts": 1,
+      "sent": true
+    },
+    {
+      "sessionId": 34,
+      "grade": 3,
+      "attempts": 1,
+      "sent": false,
+      "id": 92
+    },
+    {
+      "sessionId": 34,
+      "grade": 8,
+      "attempts": 8,
+      "sent": false,
+      "id": 93
     }
   ]
 }
